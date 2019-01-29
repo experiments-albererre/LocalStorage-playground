@@ -7,3 +7,5 @@ console.log(JSON.parse(localStorage.getItem('pepe')));
 sessionStorage.setItem('pepe', JSON.stringify({name: "PepeSession", origin: "PepeSession"}));
 
 console.log(JSON.parse(sessionStorage.getItem('pepe')));
+
+// we handle this information as Strings! (both locastore and sessionstore)
